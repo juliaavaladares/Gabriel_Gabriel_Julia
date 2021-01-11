@@ -4,7 +4,7 @@
 
 <br>
 
-<p align=center> <img src="chatbot-header.png" alt="Capa" title="Capa"/> </p>  //Adicionar imagem//
+<p align=center> <img src="chatbot-header.png" alt="Capa" title="Capa"/> </p>
 
 <br>
 
