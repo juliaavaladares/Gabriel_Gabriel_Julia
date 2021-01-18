@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turing - Login</title>
+
+    <link:cs></link:cs>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<style>
+    :root {
+        --ufjf-red: #9C231B;
+        --ufjf-gray: #A9A9A9;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #fff;
+        font-family: 'Poppins', 'sans-serif';
+    }
+
+    #logo {
+        padding: 10rem 0 10rem;
+        text-align: center;
+    }
+
+    form {
+        background-color: var(--ufjf-gray);
+        max-width: 500px;
+        width: 70%;
+        padding: 2rem;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    form h3 {
+        text-align: center;
+        color: #000;
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+
+    form input[type=text],
+    form input[type=password] {
+        width: 100%;
+        height: 2.5rem;
+        border: 1px solid #ccc;
+        padding-left: 1rem;
+        margin: 10px 0;
+        border-radius: 0.5rem;
+    }
+
+    form input[type=submit] {
+        width: 100%;
+        height: 40px;
+        margin-top: 1rem;
+        cursor: pointer;
+        background: var(--ufjf-red);
+        color: #000;
+        border: 0;
+        border-radius: 0.5rem;
+        transition: 0.4s;
+    }
+
+    form input[type=submit]:hover {
+        background-color: #000;
+        color: #fff;
+    }
+
+    
+</style>
+
+
+<body>
+
+    <header>
+        <h1 id="logo">UFJF</h1>
+    </header>
+
+    <main>
+        <form>
+            <h3>Login</h3>
+            <input type="text" name="matricula" placeholder="Sua matrícula..." />
+            <input type="password" name="senha" placeholder="Sua senha..." />
+            <input type="submit" name="acao" value="Entrar" />
+        </form>
+    </main>
+        
+
+    <footer>
+        
+    </footer>
+
+</body>
+
+
+
+
+
+
+
+</html>
