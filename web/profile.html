@@ -41,11 +41,84 @@
                     </tbody>
                 </table>
 
+                <a href="#" onclick="Modal.open()" class="button edit">Editar</a>
+
             </div>
             
         </section>
 
     </main>
+
+    <main class="container">
+        <section id="turing">
+            <h2>Chat</h2>
+            <div class="card turing">
+                <a href="#" onclick="Turing.chat()">Iniciar conversa</a>
+            </div>
+            
+        </section>
+
+    </main>
+
+    <div class="modal-overlay">
+        <div class="modal">
+            <div id="form">
+                <h2>Atualizar Perfil</h2>
+                <form action="">
+                    <div class="input-group">
+                        <input 
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Nome"
+                        />
+                    </div>
+
+                    <div class="input-group">
+                        <input 
+                            type="text"
+                            id="registration"
+                            name="registration"
+                            placeholder="Matrícula"
+                        />
+                        <small class="help">Inclua as letras no final da Matrícula</small>
+                    </div>
+
+                    <div class="input-group">
+                        <input 
+                            type="text" 
+                            id="email" 
+                            name="email"
+                            placeholder="E-mail"
+                        />
+                    </div>
+
+                    <div class="input-group actions">
+                        <a href="#" onclick="Modal.close()" class="button cancel">Cancelar</a>
+                        <button type="submit">Salvar</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const Modal = {
+            open() {
+                document.querySelector('.modal-overlay').classList.add('active')
+            },
+            close() {
+                document.querySelector('.modal-overlay').classList.remove('active')
+            }
+        }
+
+        const Turing = {
+            chat() {
+                alert('Conversa Iniciada!');
+            }
+        }
+    </script>
 
     <footer>
         <p>Turing</p>
