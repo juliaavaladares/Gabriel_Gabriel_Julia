@@ -9,7 +9,25 @@
 <br>
 
 ## 📖 Perspectiva Geral
-O Sistema **"Chatbot para Orientação de Alunos na Área de Computação"** tem como objetivo auxiliar estudantes da UFJF a encontrar materiais educacionais, tais como matérias eletivas/optativas na faculdade, cursos além do âmbito acadêmico, fontes de informações, entre outros que contribuam para uma formação voltada para o campo de maior afinidade do aluno. Chatbot desenvolvido para a disciplina de **engenharia de software 2020.3 da Universidade Federal de Juiz de Fora**.
+
+<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; O Sistema **"Chatbot para Orientação de Alunos na Área de Computação"** tem como objetivo auxiliar estudantes da UFJF a encontrar materiais educacionais, tais como matérias eletivas/optativas na faculdade, cursos além do âmbito acadêmico, fontes de informações, entre outros que contribuam para uma formação voltada para o campo de maior afinidade do aluno. Chatbot desenvolvido para a disciplina de **engenharia de software 2020.3 da Universidade Federal de Juiz de Fora**.
+
+<br>
+
+---
+
+<br>
+
+## 📋 Índice
+
+<br>
+
+- [📋 Lista de Requisitos](##-📋-Lista-de-Requisitos)
+- [📊 Diagramas](##-📊-Diagramas)
+- [📃 Gerência do Projeto](##-📃-Gerência-do-Projeto)
+- [📝 Protótipo](##-📝-Protótipo)
 
 <br>
 
@@ -21,7 +39,7 @@ O Sistema **"Chatbot para Orientação de Alunos na Área de Computação"** tem
 
 <br>
 
-#### Requisitos Funcionais
+* ### Requisitos Funcionais
 
 <br>
 
@@ -64,7 +82,7 @@ O Sistema **"Chatbot para Orientação de Alunos na Área de Computação"** tem
 
 <br>
 
-#### Requisitos Não Funcionais
+* ### Requisitos Não Funcionais
 
 <br>
 
@@ -91,7 +109,7 @@ Título                        |   Descrição
 
 <br>
 
-#### Diagrama de Classes
+* ### Diagrama de Classes:
 
 <br>
 
@@ -99,7 +117,7 @@ Título                        |   Descrição
 
 <br>
 
-#### Diagrama de Casos de Uso
+* ### Diagrama de Casos de Uso:
 
 <br>
 
@@ -111,7 +129,49 @@ Título                        |   Descrição
 
 <br>
 
-## 📝 Protótipo
+## 📃 Gerência do Projeto
 
 <br>
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para a gerência do projeto, optamos por utilizar a plataforma disponível em navegador **Trello**. Lá, adotamos o método ágil **Kanban**, onde especificamos as datas previstas para entrega de cada etapa do trabalho, e os membros que se dedicarão à elas. A ideia é que qualquer um que acesse o quadro possa ter noção do andamento das atividades. Além disso, as atividades foram divididas de maneira mais ampla (utilizando etiquetas) entre a parte do *Artigo* (etiquetas verdes) e a parte do *Trabalho Prático* (etiquetas azuis), a fim de possibilitar uma melhor visualização das tarefas.
+
+<br>
+
+<p align="center"> <img src="./images/trello.png" alt="Trello" width="400" align-items="center"> </p>
+
+<br>
+
+<p align="center"> <img src="./images/trello2.png" alt="Trello 2" width="400" align-items="center"> </p>
+
+<br>
+
+* ### **Equipe**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A equipe que participará do desenvolvimento é composta por 3 graduandos do curso de Ciência da Computação da Universidade Federal de Juiz de Fora.
+
+<br>
+
+Nome | Matrícula
+ --- |    ---    
+Gabriel Albuquerque de Souza Hosken Magalhães | 202035500
+Gabriel Di iorio Silva | 201765551AC
+Júlia de Almeida Valadares | 201765562AC
+
+
+<br> 
+
+---
+
+<br>
+
+## 📝 Protótipos
+
+<br>
+
+1) Versão 01
+
+2) Versão 02
+
+3) Versão 03
+
+<br>
