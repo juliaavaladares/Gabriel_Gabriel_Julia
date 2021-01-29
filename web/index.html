@@ -4,86 +4,15 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Turing - Login</title>
+    <title>Turing - Chatbot para Alunos da Computação/</title>
 
     <link:cs></link:cs>
+    <link rel="stylesheet" href="./styles/index.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet">
 
 </head>
 
-<style>
-    :root {
-        --ufjf-red: #9C231B;
-        --ufjf-gray: #A9A9A9;
-    }
-
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    body {
-        background-color: #fff;
-        font-family: 'Poppins', 'sans-serif';
-    }
-
-    #logo {
-        padding: 10rem 0 10rem;
-        text-align: center;
-    }
-
-    form {
-        background-color: var(--ufjf-gray);
-        max-width: 500px;
-        width: 70%;
-        padding: 2rem;
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-    form h3 {
-        text-align: center;
-        color: #000;
-        font-weight: 700;
-        margin-bottom: 1rem;
-    }
-
-    form input[type=text],
-    form input[type=password] {
-        width: 100%;
-        height: 2.5rem;
-        border: 1px solid #ccc;
-        padding-left: 1rem;
-        margin: 10px 0;
-        border-radius: 0.5rem;
-    }
-
-    form input[type=submit] {
-        width: 100%;
-        height: 40px;
-        margin-top: 1rem;
-        cursor: pointer;
-        background: var(--ufjf-red);
-        color: #000;
-        border: 0;
-        border-radius: 0.5rem;
-        transition: 0.4s;
-    }
-
-    form input[type=submit]:hover {
-        background-color: #000;
-        color: #fff;
-    }
-
-    /* passar para o arquivo css */
-    
-</style>
 
 
 <body>
@@ -92,18 +21,91 @@
         <h1 id="logo">UFJF</h1>
     </header>
 
-    <main>
-        <form>
-            <h3>Login</h3>
-            <input type="text" name="matricula" placeholder="Sua matrícula..." />
-            <input type="password" name="senha" placeholder="Sua senha..." />
-            <input type="submit" name="acao" value="Entrar" />
-        </form>
+    <main class="container">
+        <section id="login" >
+            <form class="card">
+                <h3>Login</h3>
+                <input type="text" name="matricula" placeholder="Sua matrícula..." />
+                <input type="password" name="senha" placeholder="Sua senha..." />
+                <input type="submit" name="acao" value="Entrar" />
+                <a href="profile.html" >Entrar</a>
+                <input type="submit" name="acao" onclick="Modal.open()" value="Cadastrar" />
+                <a href="#"onclick="Modal.open()">Cadastrar</a>
+            </form>
+        </section>
+        
     </main>
+
+    <div class="modal-overlay">
+        <div class="modal">
+            <div id="form">
+                <h2>Novo Cadastro</h2>
+                <form action="">
+                    <div class="input-group">
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Nome"
+                        />
+                    </div>
+
+                    <div class="input-group">
+                        <input 
+                            type="text"
+                            id="registration"
+                            name="registration"
+                            placeholder="Matrícula"
+                        />
+                        <small class="help">Inclua as letras no final da Matrícula</small>
+                    </div>
+
+                    <div class="input-group">
+                        <input 
+                            type="text" 
+                            id="email" 
+                            name="email"
+                            placeholder="E-mail"
+                        />
+                    </div>
+
+                    <div class="input-group">
+                        <input 
+                            type="password" 
+                            id="password" 
+                            name="password"
+                            placeholder="Senha"
+                        />
+                    </div>
+
+                    <div class="input-group actions">
+                        <a href="#" onclick="Modal.close()" class="button cancel">Cancelar</a>
+                        <button type="submit" class="button save">Salvar</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
         
 
+
+    <script>
+        const Modal = {
+            open() {
+                document.querySelector('.modal-overlay').classList.add('active')
+            },
+            close() {
+                document.querySelector('.modal-overlay').classList.remove('active')
+            }
+        }
+
+
+    </script>
+
+
     <footer>
-        
+        <p>Universidade Federal de Juiz de Fora</p>
     </footer>
 
 </body>

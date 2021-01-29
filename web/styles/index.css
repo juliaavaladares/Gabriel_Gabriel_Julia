@@ -11,31 +11,22 @@
 }
 
 body {
-    background: #f0f5f0;
+    background: #f0f5f0;;
     font-family: 'Poppins', 'sans-serif';
 }
 
 .container {
-    width: min(90vw, 800px);
+    width: min(90vw, 500px);
     margin: auto;
 }
 
-/* Titles ================================================ */
-h2 {
-    margin-top: 3.2rem;
-    margin-bottom: 0.8rem;
-    color: var(--dark-blue);
-
-    font-weight: normal;
-}
-
-/* Links & Buttons ======================================= */
+/* Buttons =============================================== */
 a {
     text-decoration: none;
 }
 
 button {
-    width: 100%;
+    width: 50%;
     height: 50px;
 
     border: none;
@@ -54,32 +45,41 @@ button:hover {
     opacity: 0.7;
 }
 
-.button.edit {
-    color: black;
-    text-decoration: none;
-    float: right;
-}
-
-.button.edit:hover {
-    opacity: 0.7;
-}
-
 .button.cancel {
     color: var(--ufjf-red);
     border: 2px var(--ufjf-red) solid;
     border-radius: 0.25rem;
 
     height: 50px;
+    
 
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 48%;
 }
 
 .button.cancel:hover {
     color: white;
     background-color: var(--ufjf-red);
+}
 
+.button.save {
+    color: #000;
+    border: 2px #000 solid;
+    border-radius: 0.25rem;
+    font-family: 'Poppins', 'sans-serif';
+
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48%;
+}
+
+.button.save:hover {
+    opacity: 0.6;
 }
 
 /* Header ================================================ */
@@ -90,68 +90,33 @@ header {
 }
 
 #logo {
+    margin-top: 2rem;
     color: #fff;
-    font-weight: 100;
-}
-
-/* Profile =============================================== */
-#profile {
-    margin-top: -5rem;  /* Penetra a parte vermelha do header */
-}
-
-#profile h2 {
-    color: #fff;
-    margin-top: 0;
-    margin-left: 2rem;
-}
-
-/* Turing =============================================== */
-#turing h2 {
-    color: black;
-    margin-top: 0;
-    margin-left: 2rem;
-}
-
-.card.turing {
     text-align: center;
 }
 
-/* Card ================================================= */
+/* Login ==================================================*/
+#login {
+    margin-top: -3rem;  /* Penetra a parte vermelha do header */
+}
+
+#login h3 {
+    color: #000;
+    text-align: center;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+
+}
+
+/* Card ================================================== */
 .card {
     background: #fff;
     padding: 3rem 2rem;
     border-radius: 0.25rem;
+    margin-bottom: 0.5rem;
 
-    margin-bottom: 2rem;
-
-    color: var(--dark-blue);
+    text-align: center;
 }
-
-.card #data-table {
-    width: 100%;
-    border-spacing: 0 1.5rem;
-    color: #969cb3;
-}
-
-.card .description {
-    color: #000;
-    font-weight: bold;
-}
-
-.card .data {
-    color: black;
-    font-weight: normal;
-
-    opacity: 1;
-}
-
-.card .data:hover {
-    font-weight: normal;
-
-    opacity: 0.7;
-}
-
-
 
 /* Modal ================================================= */
 .modal-overlay {            /* Véu preto na tela */
@@ -209,6 +174,7 @@ input {
 
 .input-group small {
     opacity: 0.4;
+    font-size: smaller;
 }
 
 .input-group.actions {
@@ -222,12 +188,42 @@ input {
     width: 48%;
 }
 
+/* Input ================================================= */
+form input[type=text],
+form input[type=password] {
+    width: 100%;
+    height: 2.5rem;
+    border: 1px solid #ccc;
+    padding-left: 1rem;
+    margin: 10px 0;
+    border-radius: 0.5rem;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+form input[type=submit] {
+    width: 40%;
+    height: 40px;
+    margin-top: 2rem;
+    cursor: pointer;
+    background: #000;
+    color: #fff;
+    border: 0;
+    border-radius: 0.5rem;
+    font-family: 'Poppins', 'sans-serif';
+    opacity: 0.7;
+}
+
+form input[type=submit]:hover {
+    background-color: #000;
+    color: #fff;
+    opacity: 1;
+}
+
 /* Footer ================================================ */
 footer {
     text-align: center;
     padding: 4rem 0 2rem;
-    color: var(--dark-blue);
+    color: black;
 
     opacity: 0.6;
 }
-

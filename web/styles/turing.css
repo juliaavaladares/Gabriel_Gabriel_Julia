@@ -1,0 +1,72 @@
+/* Global =============================================== */
+:root {
+    --ufjf-red: #9C231B;
+    --ufjf-gray: #A9A9A9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f0f5f0;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+.container {
+    width: min(90vw, 800px);
+    margin: auto;
+}
+
+/* Header ================================================ */
+header {
+    background: var(--ufjf-red);
+    padding: 2rem 0 10rem;
+    text-align: center;
+}
+
+#logo {
+    color: #fff;
+    font-weight: 100;
+}
+
+/* Chat =============================================== */
+#turing {
+    margin-top: -5rem;  /* Penetra a parte vermelha do header */
+}
+
+#turing h2 {
+    color: #fff;
+    margin-top: 0;
+    margin-left: 2rem;
+}
+
+/* Card ================================================= */
+.card {
+    background: #fff;
+    padding: 3rem 2rem;
+    border-radius: 0.25rem;
+
+    margin-bottom: 2rem;
+
+    color: var(--dark-blue);
+}
+
+/* Buttons =============================================== */
+#voltar {
+    text-decoration: none;
+    color: #fff;
+    float: left;
+    margin-left: 2rem;
+}
+
+/* Footer ================================================ */
+footer {
+    text-align: center;
+    padding: 4rem 0 2rem;
+    color: black;
+
+    opacity: 0.6;
+}
