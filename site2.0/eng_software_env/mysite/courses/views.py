@@ -1,5 +1,10 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.views.decorators.http import require_POST
+
+
 
 def index(request):
-    return HttpResponse("Voce esta em courses/index")
+    return render(request, 'courses/index.html')
+
+def admin_home(request):
+    return render(request, 'courses/admin_home.html')
