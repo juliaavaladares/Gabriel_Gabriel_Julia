@@ -24,10 +24,12 @@
 
 <br>
 
-- [📋 Lista de Requisitos](##-📋-Lista-de-Requisitos)
-- [📊 Diagramas](##-📊-Diagramas)
-- [📃 Gerência do Projeto](##-📃-Gerência-do-Projeto)
-- [📝 Protótipo](##-📝-Protótipo)
+<ol>
+ <li><a href="#requisitos">📋 Lista de Requisitos</a></li>
+ <li><a href="#diagramas">📊 Diagramas</a></li>
+ <li><a href="#gerencia">📃 Gerência de Projeto</a></li>
+ <li><a href="#prototipos">📝 Protótipos</a></li>
+</ol>
 
 <br>
 
@@ -35,7 +37,7 @@
 
 <br>
 
-## 📋 Lista de Requisitos
+<h2 id="requisitos">📋 Lista de Requisitos</h2>
 
 <br>
 
@@ -105,7 +107,7 @@ Título                        |   Descrição
 
 <br>
 
-## 📊 Diagramas
+<h2 id="diagramas">📊 Diagramas</h2>
 
 <br>
 
@@ -129,7 +131,7 @@ Título                        |   Descrição
 
 <br>
 
-## 📃 Gerência do Projeto
+<h2 id="gerencia">📃 Gerência de Projeto</h2>
 
 <br>
 
@@ -164,7 +166,7 @@ Júlia de Almeida Valadares | 201765562AC
 
 <br>
 
-## 📝 Protótipos
+<h2 id="prototipos">📝 Protótipos</h2>
 
 <br>
 
