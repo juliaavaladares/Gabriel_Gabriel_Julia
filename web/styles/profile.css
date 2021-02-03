@@ -211,6 +211,7 @@ header {
 input {
     border: none;
     border-radius: 0.2rem;
+    font-family: 'Poppins', 'sans-serif';
 
     padding: 0.8rem;
 
