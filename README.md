@@ -139,11 +139,11 @@ Título                        |   Descrição
 
 <br>
 
-<p align="center"> <img src="./images/trello.png" alt="Trello" width="400" align-items="center"> </p>
+<p align="center"> <img src="./images/trello.png" alt="Trello" width="700" align-items="center"> </p>
 
 <br>
 
-<p align="center"> <img src="./images/trello2.png" alt="Trello 2" width="400" align-items="center"> </p>
+<p align="center"> <img src="./images/trello2.png" alt="Trello 2" width="700" align-items="center"> </p>
 
 <br>
 
