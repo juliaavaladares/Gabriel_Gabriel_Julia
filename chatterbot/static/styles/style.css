@@ -1,9 +1,15 @@
 :root {
-  --body-bg: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+
+  /* ========================= */
+  --ufjf-red: #9C231B;
+  --ufjf-gray: #A9A9A9;
+  /* ====================== */
+
   --msger-bg: #fff;
   --border: 2px solid #ddd;
-  --left-msg-bg: #ececec;
-  --right-msg-bg: #579ffb;
+  --right-msg-bg: #9C231B;
+
+
 }
 
 html {
@@ -23,8 +29,8 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: var(--body-bg);
   font-family: Helvetica, sans-serif;
+  background-image: linear-gradient(0deg, #f0f5f0 80%, var(--ufjf-red) 20%);
 }
 
 .msger {
@@ -49,7 +55,8 @@ body {
   text-align: center;
   border-bottom: var(--border);
   background: #eee;
-  color: #666;
+  color: #000;
+  cursor: default;
 }
 
 .msger-chat {
@@ -86,7 +93,7 @@ body {
   max-width: 450px;
   padding: 15px;
   border-radius: 15px;
-  background: var(--left-msg-bg);
+  background: var(--ufjf-gray);
 }
 .msg-info {
   display: flex;
@@ -110,7 +117,7 @@ body {
   flex-direction: row-reverse;
 }
 .right-msg .msg-bubble {
-  background: var(--right-msg-bg);
+  background: var(--ufjf-red);
   color: #fff;
   border-bottom-right-radius: 0;
 }
@@ -136,16 +143,19 @@ body {
 }
 .msger-send-btn {
   margin-left: 10px;
-  background: rgb(0, 196, 65);
-  color: #fff;
+  background: var(--ufjf-gray);
+  color: #000;
   font-weight: bold;
   cursor: pointer;
-  transition: background 0.23s;
+  transition: 0.3s;
 }
 .msger-send-btn:hover {
-  background: rgb(0, 180, 50);
+  
+  background: var(--ufjf-red);
+  color: #fff;
 }
 
 .msger-chat {
   background-color: #fcfcfe;
+  background-image: linear-gradient(0deg, var(--ufjf-gray)  0%, #f5f7fa 100%);
 }
