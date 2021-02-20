@@ -1,5 +1,6 @@
 {% load static %}
 
+<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
@@ -7,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Turing - Chatbot para Alunos da Computação/</title>
 
-    <link rel="stylesheet" href="{% static 'css/login.css' %}">
+    <link rel="stylesheet" href="{% static 'courses/css/login.css' %}">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet">
 
@@ -27,9 +28,7 @@
                 <h3>Login</h3>
                 <input type="text" name="matricula" placeholder="Sua matrícula..." />
                 <input type="password" name="senha" placeholder="Sua senha..." />
-                <!-- <input type="submit" name="acao" value="Entrar" /> -->
                 <a href="profile.html" class="button login">Entrar</a>
-                <!-- <input type="submit" name="acao" onclick="Modal.open()" value="Cadastrar" /> -->
                 <a href="#"onclick="Modal.open()" class="button login">Cadastrar</a>
             </form>
         </section>
