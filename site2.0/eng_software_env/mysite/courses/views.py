@@ -36,3 +36,6 @@ def profile(request):
 #Página do Chatbot 
 def turing(request):
     return render(request, 'courses/turing.html')
+
+def admin_home(request):
+    return render(request, 'courses/admin_home.html')
