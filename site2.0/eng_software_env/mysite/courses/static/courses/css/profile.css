@@ -23,6 +23,7 @@ body {
 /* Links & Buttons ======================================= */
 a {
     text-decoration: none;
+    color: var(--ufjf-red);
 }
 
 button {

@@ -53,11 +53,75 @@
         <section id="materiais">
             <h2>Materiais</h2>
             <div class="card materiais">
-                <a href="materiais.html">Ver lista de materiais</a>
+                <nav>
+                    <ul>
+                        <li><button onclick="DOM.toggleTable(0)">Site</button></li>
+                        <li><button onclick="DOM.toggleTable(1)">Livro</button></li>
+                        <li><button onclick="DOM.toggleTable(2)">Professor</button></li>
+                        <li><button onclick="DOM.toggleTable(3)">Vídeo</button></li>
+                        <li><button onclick="DOM.toggleTable(4)">Matéria</button></li>
+                    </ul>
+                </nav>
+
+                <table id="db-table">
+                </table>
+
             </div>
         </section>
 
     </main>
+
+    <div class="modal-overlay">
+        <div class="modal">
+            <div id="form">
+                <h2>Atualizar Perfil</h2>
+                <form action="">
+                    <div class="input-group">
+                        <input 
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Novo Nome"
+                        />
+                    </div>
+
+                    <div class="input-group">
+                        <input 
+                            type="number"
+                            id="classroom"
+                            name="classroom"
+                            placeholder="Sala"
+                        />
+                        <small class="help">Somente números</small>
+                    </div>
+
+                    <div class="input-group">
+                        <input 
+                            type="text" 
+                            id="email" 
+                            name="email"
+                            placeholder="Novo E-mail"
+                        />
+                    </div>
+
+                    <div class="input-group">
+                        <input 
+                            type="password" 
+                            id="password" 
+                            name="password"
+                            placeholder="Nova senha"
+                        />
+                    </div>
+
+                    <div class="input-group actions">
+                        <a href="#" onclick="Modal.close()" class="button cancel">Cancelar</a>
+                        <button type="submit" class="button save">Salvar</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
 
     <script>
         const Modal = {
@@ -67,6 +131,150 @@
             close() {
                 document.querySelector('.modal-overlay').classList.remove('active')
             }
+        }
+
+        const DOM = {
+            dataContainer: document.querySelector('.card.materiais'),
+
+            toggleTable(type) {
+
+                // Remover a tabela antiga
+                const prevTable = document.querySelector('.card.materiais table')
+                prevTable.remove()
+
+                // Seleciona a table
+                const table = document.createElement('table')
+
+                // Define qual o HTML a ser passado de acordo com o botão clicado
+                table.innerHTML = DOM.innerHTMLMaterial(type)
+                
+                // Adicionar ID #db-table ao elemento table
+                table.setAttribute('id', 'db-table')
+
+                // Adiciona a nova tabela
+                DOM.dataContainer.appendChild(table)
+                document.querySelector('table').add
+                
+            },
+
+            innerHTMLMaterial(type) {
+                let html
+
+                switch (type) {
+                    case 0:
+                        html = `
+                        <thead>
+                            <tr>
+                                <th>Nome</th>
+                                <th>Descrição</th>
+                                <th>Especialdade</th>
+                                <th>Link</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>teste</td>
+                                <td>teste</td>
+                                <td>teste</td>
+                                <td>teste</td>
+                            </tr>
+                        </tbody>
+                        `
+                        break;
+
+                    case 1:
+                        html = `
+                        <thead>
+                            <tr>
+                                <th>Nome</th>
+                                <th>Descrição</th>
+                                <th>Especialidade</th>
+                                <th>Disponibilidade</th>
+                                <th>Autor</th>
+                                <th>Edição</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>teste</td>
+                                <td>teste</td>
+                                <td>teste</td>
+                                <td>teste</td>
+                                <td>teste</td>
+                                <td>teste</td>
+                            </tr>
+                        </tbody>
+                        `
+                        break;
+
+                    case 2:
+                        html = `
+                        <thead>
+                            <tr>
+                                <th>Nome</th>
+                                <th>Descrição</th>
+                                <th>Especialidade</th>
+                                <th>Sala</th>
+                                <th>Email</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>teste</td>
+                                <td>teste</td>
+                                <td>teste</td>
+                                <td>teste</td>
+                                <td>teste</td>
+                            </tr>
+                        </tbody>
+                        `
+                        break;
+
+                    case 3:
+                        html = `
+                        <thead>
+                            <tr>
+                                <th>Nome</th>
+                                <th>Descrição</th>
+                                <th>Especialidade</th>
+                                <th>Link</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>teste</td>
+                                <td>teste</td>
+                                <td>teste</td>
+                                <td>teste</td>
+                            </tr>
+                        </tbody>
+                        `
+                        break;
+
+                    case 4:
+                        html = `
+                        <thead>
+                            <tr>
+                                <th>Nome</th>
+                                <th>Descrição</th>
+                                <th>Especialidade</th>
+                                <th>Código</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>teste</td>
+                                <td>teste</td>
+                                <td>teste</td>
+                                <td>teste</td>
+                            </tr>
+                        </tbody>
+                        `
+                        break;
+                }
+                
+                return html
+            },
         }
     </script>
 
