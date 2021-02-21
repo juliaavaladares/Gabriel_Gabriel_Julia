@@ -10,6 +10,9 @@ class Material(models.Model):
     descricao = models.TextField()
     especialidade = models.CharField(max_length=100)
 
+    def __str__(self):
+        return f"{self.nome}, {self.especialidade}"
+
 class Site(Material):
     link = models.CharField(max_length=200)
 
