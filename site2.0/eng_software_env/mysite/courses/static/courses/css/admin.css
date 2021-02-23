@@ -147,8 +147,7 @@ ul > li > button {
     outline: none;
 }
 
-
-ul>li>button:hover {
+ul > li > button:hover {
     opacity: 0.5;
 }
 

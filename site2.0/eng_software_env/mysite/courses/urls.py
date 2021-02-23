@@ -7,5 +7,11 @@ urlpatterns = [
     path('login', views.user_login, name='login'),
     path('profile', views.profile, name='profile'),
     path('turing', views.turing, name='turing'),
-    path('admin/home', views.admin_home, name='admin_home')
+    path('admin/home', views.admin_home, name='admin_home'),
+
+
+
+    # Funcionalidade dos Cadastros
+    path('register_new_student', views.register_new_student, name="register_new_student"),
+
 ]

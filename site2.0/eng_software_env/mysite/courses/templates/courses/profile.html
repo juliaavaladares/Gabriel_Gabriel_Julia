@@ -16,11 +16,12 @@
 <body>
 
     <header>
-        <a href="login.html" id="sair">Sair</a>
+        <a href="login" id="sair">Sair</a>
         <h1 id="logo">Turing</h1>
         
     </header>
 
+    {% block content %}
     <main class="container">
         <section id="profile">
             <h2>Perfil</h2>
@@ -32,15 +33,15 @@
                     <tbody>
                         <tr>
                             <td class="description">Nome</td>
-                            <td class="data">Gabriel A. de S. H. Magalhães</td>
+                            <td class="data">{NOME DO ALUNO}</td>
                         </tr>
                         <tr>
                             <td class="description">Matrícula</td>
-                            <td class="data">202035500</td>
+                            <td class="data">{MATRICULA DO ALUNO}</td>
                         </tr>
                         <tr>
                             <td class="description">E-mail</td>
-                            <td class="data">gabriel.ashm@hotmail.com</td>
+                            <td class="data">{EMAIL DO ALUNO}</td>
                         </tr>
                     </tbody>
                 </table>
@@ -53,11 +54,13 @@
         <section id="turing">
             <h2>Chat</h2>
             <div class="card turing">
-                <a href="turing.html">Iniciar conversa</a>
+                <a href="turing">Iniciar conversa</a>
             </div>
         </section>
 
     </main>
+
+    {% endblock content %}
 
     <div class="modal-overlay">
         <div class="modal">

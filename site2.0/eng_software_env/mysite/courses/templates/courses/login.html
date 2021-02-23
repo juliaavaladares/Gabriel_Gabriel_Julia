@@ -23,16 +23,18 @@
         <h1 id="logo">UFJF</h1>
     </header>
 
+
+    {% block content %}
     <main class="container">
         <section id="login" >
             <form class="card">
                 <h3>Login</h3>
                 <input type="text" name="matricula" placeholder="Sua matrícula..." />
                 <input type="password" name="senha" placeholder="Sua senha..." />
-                <a href="profile.html" class="button login">Entrar</a>
+                <a href="profile" class="button login">Entrar</a>
                 <a href="#" onclick="Modal.open()" class="button login">Cadastrar</a>
                 <p>
-                    <span>Administrador?</span> <a href="/admin" class="button admin">Acesse aqui</a>
+                    <span>Administrador?</span> <a href="/admin/home" class="button admin">Acesse aqui</a>
                 </p>
                 
                 
@@ -45,50 +47,18 @@
         <div class="modal">
             <div id="form">
                 <h2>Novo Cadastro</h2>
-                <form action="">
-                    <div class="input-group">
-                        <input
-                            type="text"
-                            id="name"
-                            name="name"
-                            placeholder="Nome"
-                        />
-                    </div>
 
-                    <div class="input-group">
-                        <input 
-                            type="text"
-                            id="registration"
-                            name="registration"
-                            placeholder="Matrícula"
-                        />
-                        <small class="help">Inclua as letras no final da Matrícula</small>
-                    </div>
-
-                    <div class="input-group">
-                        <input 
-                            type="text" 
-                            id="email" 
-                            name="email"
-                            placeholder="E-mail"
-                        />
-                    </div>
-
-                    <div class="input-group">
-                        <input 
-                            type="password" 
-                            id="password" 
-                            name="password"
-                            placeholder="Senha"
-                        />
-                    </div>
+                <form action="" method="post">
+                    {% csrf_token %}
+                    {{ student_form }}
 
                     <div class="input-group actions">
                         <a href="#" onclick="Modal.close()" class="button cancel">Cancelar</a>
                         <button type="submit" class="button save">Salvar</button>
                     </div>
-
                 </form>
+                
+
             </div>
         </div>
     </div>
@@ -108,6 +78,8 @@
     <footer>
         <p>Universidade Federal de Juiz de Fora</p>
     </footer>
+
+    {% endblock content %}
 
 </body>
 </html>

@@ -3,6 +3,40 @@ from django.forms import fields
 from .models import *
 
 
+########################################################
+#FORMS PARA OS ALUNOS
+########################################################
+class Aluno_Form(forms.ModelForm):
+    nome = forms.CharField(max_length=200,
+       widget=forms.TextInput(
+        attrs={
+            'placeholder': 'ex.: João Silveira'
+        }), label='Nome Completo')
+
+    matricula = forms.CharField(max_length=11,
+       widget=forms.TextInput(
+        attrs={
+            'placeholder': 'ex.: 202166678AC'
+        }), label='Matricula')
+    
+    email = forms.EmailField(
+        widget=forms.TextInput(
+            attrs={
+                'placeholder': 'ex.: jao@silveira.com'
+        }))
+    
+    senha = forms.CharField(max_length=12)
+    class Meta:
+        model = Aluno
+        fields = '__all__'
+    
+
+
+########################################################
+#FORMS PARA OS MATERIAIS
+########################################################
+
+
 #Form para a adição do Site
 class Site_Form(forms.ModelForm):
 
@@ -90,9 +124,7 @@ class Video_form(forms.ModelForm):
             'placeholder': 'ex.: Programação Dinâmica'
         }), label='Nome autor')
     
-    duracao = forms.DurationField(attrs={
-            'placeholder': 'ex.: 00:10:52 -> hora:minutos:segundos'
-        }, label='Duração do vídeo')
+    duracao = forms.DurationField()
     class Meta:
         model = Video
         fields = '__all__'

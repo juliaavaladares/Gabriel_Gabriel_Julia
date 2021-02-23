@@ -33,3 +33,11 @@ class Professor(Material):
 
 class Materia(Material):
     codigo = models.CharField(max_length=10)
+
+class Aluno(models.Model):
+    nome = models.CharField(max_length=200)
+    matricula = models.TextField()
+    email = models.EmailField()
+    senha = models.CharField(('password'), max_length=128)
+
+
