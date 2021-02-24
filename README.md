@@ -1,12 +1,10 @@
 # Chatbot para Orientação de Alunos na Área de Computação
 
----
-
-<br>
-
 <p align=center> <img src="images/chatbot-header.png" alt="Capa" title="Capa"/> </p>
 
 <br>
+
+---
 
 ## 📖 Perspectiva Geral
 
@@ -18,24 +16,20 @@
 
 ---
 
-<br>
-
-## 📋 Índice
+## 👆 Índice
 
 <br>
 
-<ol>
+<ul>
  <li><a href="#requisitos">📋 Lista de Requisitos</a></li>
  <li><a href="#diagramas">📊 Diagramas</a></li>
  <li><a href="#gerencia">📃 Gerência de Projeto</a></li>
  <li><a href="#prototipos">📝 Protótipos</a></li>
-</ol>
+</ul>
 
 <br>
 
 ---
-
-<br>
 
 <h2 id="requisitos">📋 Lista de Requisitos</h2>
 
@@ -79,9 +73,6 @@
  [RF030] - Identificar palavras-chave | O chatbot deve ser capaz de reconhecer alguns sinônimos das palavras-chaves utilizadas por estudantes a fim de tornar a recomendação mais assertiva.
  [RF031] - Encerramento de Conexão | O chatbot ser capaz de encerrar uma conversa assim que o aluno obter sua recomendação desejada.
 
-
- <br>   
-
 <br>
 
 * ### Requisitos Não Funcionais
@@ -105,8 +96,6 @@ Título                        |   Descrição
 
 ---
 
-<br>
-
 <h2 id="diagramas">📊 Diagramas</h2>
 
 <br>
@@ -127,9 +116,13 @@ Título                        |   Descrição
 
 <br>
 
----
+* ### Fluxograma:
 
 <br>
+
+<p align=center> <img src="diagramas/fluxograma.png" alt="Fluxograma" title="Fluxograma"/> </p>
+
+---
 
 <h2 id="gerencia">📃 Gerência de Projeto</h2>
 
@@ -163,8 +156,6 @@ Júlia de Almeida Valadares | 201765562AC
 <br> 
 
 ---
-
-<br>
 
 <h2 id="prototipos">📝 Protótipos</h2>
 
