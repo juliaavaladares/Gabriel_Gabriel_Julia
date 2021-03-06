@@ -1,0 +1,2 @@
+textos desenvolvimento
+Excelente, conheço um blog com conhecimentos mais avancados sobre o assunto, da <a href="https://blog.rocketseat.com.br/" target="_blank">Rocketseat</a>. <br>Voce tem interesse em conversar com algum professor da UFJF que seja da area de Desenvolvimento? se sim, digite <strong>professores desenvolvimento</strong>, por favor. Caso contrario, agradeco por usar Turing chatbot, e bons estudos!

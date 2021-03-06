@@ -1,61 +1,85 @@
+﻿oi
+Oi, eu sou o Turing, seu chatbot assistente da UFJF. Estou aqui para tentar ajudar voce a encontrar uma area de maior afinidade dentro da coputacao. Voce tem uma area especifica na qual possui interesse em conhecer mais? Se sim, qual?
+
 oi
-Oi, eu sou o Turing, seu chatbot assistente da UFJF. Estou aqui para tentar ajudar você a encontrar uma area
-de maior afinidade dentro da computacaoo. O que eu posso fazer por voce hoje?
+Oi, eu sou o Turing, seu chatbot assistente da UFJF. Estou aqui para tentar ajudar voce a encontrar uma area de maior afinidade dentro da coputacao. Voce tem uma area especifica na qual possui interesse em conhecer mais? Se sim, qual?
 
 ola
-Ola, eu sou o Turing, seu chatbot assistente da UFJF. Estou aqui para tentar ajudar voce a encontrar uma area
-de maior afinidade dentro da computacao. O que eu posso fazer por voce hoje?
+Ola, eu sou o Turing, seu chatbot assistente da UFJF. Estou aqui para tentar ajudar voce a encontrar uma area de maior afinidade dentro da computacao. Voce tem uma area especifica na qual possui interesse em conhecer mais? Se sim, qual?
 
 hola
-Hola, que tal? Yo soy Turing jajaja. Seu chatbot assistente da UFJF. Estou aqui para tentar ajudar voce a encontrar uma area
-de maior afinidade dentro da computacao. O que eu posso fazer por voce hoje?
+Hola, que tal? Yo soy Turing jajaja. Seu chatbot assistente da UFJF. Estou aqui para tentar ajudar voce a encontrar uma area de maior afinidade dentro da computacao. Voce tem uma area especifica na qual possui interesse em conhecer mais? Se sim, qual?
 
 eae
-Eae, eu sou o Turing, seu chatbot assistente da UFJF. Estou aqui para tentar ajudar voce a encontrar uma area
-de maior afinidade dentro da computacao. O que eu posso fazer por voce hoje?
+Eae, eu sou o Turing, seu chatbot assistente da UFJF. Estou aqui para tentar ajudar voce a encontrar uma area de maior afinidade dentro da computacao. Voce tem uma area especifica na qual possui interesse em conhecer mais? Se sim, qual?
 
 iai
-Eae, eu sou o Turing, seu chatbot assistente da UFJF. Estou aqui para tentar ajudar voce a encontrar uma area
-de maior afinidade dentro da computacao. O que eu posso fazer por voce hoje?
+Eae, eu sou o Turing, seu chatbot assistente da UFJF. Estou aqui para tentar ajudar voce a encontrar uma area de maior afinidade dentro da computacao. Voce tem uma area especifica na qual possui interesse em conhecer mais? Se sim, qual?
 
 bom dia
-Bom dia, eu sou o Turing, seu chatbot assistente da UFJF. Estou aqui para tentar ajudar voce a encontrar uma area
-de maior afinidade dentro da computacao. O que eu posso fazer por voce hoje?
+Bom dia, eu sou o Turing, seu chatbot assistente da UFJF. Estou aqui para tentar ajudar voce a encontrar uma area de maior afinidade dentro da computacao. Voce tem uma area especifica na qual possui interesse em conhecer mais? Se sim, qual?
 
 boa tarde
-Boa tarde, eu sou o Turing, seu chatbot assistente da UFJF. Estou aqui para tentar ajudar voce a encontrar uma area
-de maior afinidade dentro da computacao. O que eu posso fazer por voce hoje?
+Boa tarde, eu sou o Turing, seu chatbot assistente da UFJF. Estou aqui para tentar ajudar voce a encontrar uma area de maior afinidade dentro da computacao. Voce tem uma area especifica na qual possui interesse em conhecer mais? Se sim, qual?
 
 boa noite
-Boa noite, eu sou o Turing, seu chatbot assistente da UFJF. Estou aqui para tentar ajudar voce a encontrar uma area
-de maior afinidade dentro da computacao. O que eu posso fazer por voce hoje?
+Boa noite, eu sou o Turing, seu chatbot assistente da UFJF. Estou aqui para tentar ajudar voce a encontrar uma area de maior afinidade dentro da computacao. Voce tem uma area especifica na qual possui interesse em conhecer mais? Se sim, qual?
 
 salve
-Quale menor, eu sou o Turing, seu chatbot assistente da UFJF. Estou aqui para tentar ajudar voce a encontrar uma area
-de maior afinidade dentro da computacao. O que eu posso fazer por voce hoje?
+Quale menor, eu sou o Turing, seu chatbot assistente da UFJF. Estou aqui para tentar ajudar voce a encontrar uma area de maior afinidade dentro da computacao. Voce tem uma area especifica na qual possui interesse em conhecer mais? Se sim, qual?
 
 opa
-Aopa, eu sou o Turing, seu chatbot assistente da UFJF. Estou aqui para tentar ajudar voce a encontrar uma area
-de maior afinidade dentro da computacao. O que eu posso fazer por voce hoje?
+Aopa, eu sou o Turing, seu chatbot assistente da UFJF. Estou aqui para tentar ajudar voce a encontrar uma area de maior afinidade dentro da computacao. Voce tem uma area especifica na qual possui interesse em conhecer mais? Se sim, qual?
 
 ei
-Ei, eu sou o Turing, seu chatbot assistente da UFJF. Estou aqui para tentar ajudar voce a encontrar uma area
-de maior afinidade dentro da computacao. O que eu posso fazer por voce hoje?
+Ei, eu sou o Turing, seu chatbot assistente da UFJF. Estou aqui para tentar ajudar voce a encontrar uma area de maior afinidade dentro da computacao. Voce tem uma area especifica na qual possui interesse em conhecer mais? Se sim, qual?
 
 tudo bem?
-Tudo otimo, obrigado por perguntar! O que eu posso fazer por voce hoje?
+Tudo otimo, obrigado por perguntar! Voce tem uma area especifica na qual possui interesse em conhecer mais? Se sim, qual?
 
 tudo bom?
-Tudo otimo, obrigado por perguntar! O que eu posso fazer por voce hoje?
+Tudo otimo, obrigado por perguntar! Voce tem uma area especifica na qual possui interesse em conhecer mais? Se sim, qual?
 
 tudo certo?
-Tudo otimo, obrigado por perguntar! O que eu posso fazer por voce hoje?
+Tudo otimo, obrigado por perguntar! Voce tem uma area especifica na qual possui interesse em conhecer mais? Se sim, qual?
 
 tudo ok?
-Tudo otimo, obrigado por perguntar! O que eu posso fazer por voce hoje?
+Tudo otimo, obrigado por perguntar! Voce tem uma area especifica na qual possui interesse em conhecer mais? Se sim, qual?
 
 como esta?
-Estou bem, obrigado por perguntar! O que eu posso fazer por voce hoje?
+Estou bem, obrigado por perguntar! Voce tem uma area especifica na qual possui interesse em conhecer mais? Se sim, qual?
 
 como voce esta?
-Estou bem, obrigado por perguntar! O que eu posso fazer por voce hoje?
+Estou bem, obrigado por perguntar! Voce tem uma area especifica na qual possui interesse em conhecer mais? Se sim, qual?
+
+Oi, tudo bem?
+Tudo otimo, obrigado por perguntar! Para te ajudar por favor me diga materias e seus interesses em computacao2? Se sim, qual?
+
+Olá, tudo bem?
+Tudo otimo, obrigado por perguntar! Voce tem uma area especifica na qual possui interesse em conhecer mais? Se sim, qual?
+
+Olá, como vai?
+Tudo otimo, obrigado por perguntar! Voce tem uma area especifica na qual possui interesse em conhecer mais? Se sim, qual?
+
+Oi, como vai?
+Tudo otimo, obrigado por perguntar! Voce tem uma area especifica na qual possui interesse em conhecer mais? Se sim, qual?
+
+Pode me ajudar?
+Claro! Voce tem uma area especifica na qual possui interesse em conhecer mais? Se sim, qual?
+
+Oi, pode me ajudar? 
+Claro! Voce tem uma area especifica na qual possui interesse em conhecer mais? Se sim, qual?
+
+Olá, pode me ajudar?
+Claro! Voce tem uma area especifica na qual possui interesse em conhecer mais? Se sim, qual?
+
+Fala cara!
+E ai, beleza? Me fala, Voce tem uma area especifica na qual possui interesse em conhecer mais? Se sim, qual?
+
+Tranquilo?
+Tranquilidade maxima, meu amigo. Pra ficar melhor ainda me passa a visao ai. Voce tem uma area especifica na qual possui interesse em conhecer mais? Se sim, qual?
+
+
+
+
+

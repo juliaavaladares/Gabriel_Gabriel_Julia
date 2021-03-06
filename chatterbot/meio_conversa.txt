@@ -1,0 +1,23 @@
+Não tenho ideia de uma área que quero seguir
+Sem problemas! Tenho conhecimento apurados nas areas de: Ciencia de Dados, Computacao Grafica e Desenvolvimento. Voce se interessa por alguma dessas? Caso nao, digite '1'.
+
+Não sei a área que eu quero
+Sem problemas! Tenho conhecimento apurados nas areas de: Ciencia de Dados, Computacao Grafica e Desenvolvimento. Voce se interessa por alguma dessas? Caso nao, digite '1'.
+
+Não faço ideia
+Sem problemas! Tenho conhecimento apurados nas areas de: Ciencia de Dados, Computacao Grafica, Desenvolvimento. Voce se interessa por alguma dessas? Caso nao, digite '1'.
+
+Não
+Sem problemas! Tenho conhecimento apurados nas areas de: Ciencia de Dados, Computacao Grafica, Desenvolvimento. Voce se interessa por alguma dessas? Caso nao, digite '1'.
+
+1
+Me desculpe mas acho que eu nao posso te ajudar no momento. Volte mais tarde e talvez eu ja tenha me aprofundado em alguma area que voce goste!
+
+Sim, tenho interesse em Ciência de Dados
+Otimo, vou te recomendar algumas materias que estao disponiveis na UFJF que abrangem o tema para que voce possa se matricular e conhecer mais sobre o assunto Voce pode pegar: <br> <a href="https://www.ufjf.br/deptocomputacao/sou-aluno/disciplinas/disciplinasdep/plano-de-ensino/?CodDisciplina=DCC127" target="_blank"> <strong>DCC127</strong> - MINERACAO DE DADOS </a>; <br> <strong>DCC002</strong> - Exemplo 2. Alem disso, tenho alguns materiais para voce ir estudando por conta propria, voce prefere eles na forma de texto ou video? <br> Digite <strong>textos ciencia de dados</strong> ou <strong>videos ciencia de dados</strong>, por favor.
+
+Sim, tenho interesse em Computação Gráfica
+Otimo, vou te recomendar algumas materias que estao disponiveis na UFJF que abrangem o tema para que voce possa se matricular e conhecer mais sobre o assunto. Voce pode pegar: <br> <a href="https://www.ufjf.br/deptocomputacao/sou-aluno/disciplinas/disciplinasdep/plano-de-ensino/?CodDisciplina=DCC066" target="_blank"> <strong>DCC066</strong> - PROCESSAMENTO DE IMAGENS </a>; <br> <strong>DCC002</strong> - Exemplo 2. Alem disso, tenho alguns materiais para voce ir estudando por conta propria, voce prefere eles na forma de texto ou video? <br> Digite <strong>textos computacao grafica</strong> ou <strong>videos computacao grafica</strong>, por favor.
+
+Sim, tenho interesse em Desenvolvimento
+Otimo, vou te recomendar algumas materias que estao disponiveis na UFJF que abrangem o tema para que voce possa se matricular e conhecer mais sobre o assunto Voce pode pegar: <br> <a href="https://www.ufjf.br/deptocomputacao/sou-aluno/disciplinas/disciplinasdep/plano-de-ensino/?CodDisciplina=DCC079" target="_blank"> <strong>DCC079</strong> - PROGRAMACAO PARA A WEB </a>; <br> <a href="https://www.ufjf.br/deptocomputacao/sou-aluno/disciplinas/disciplinasdep/plano-de-ensino/?CodDisciplina=DCC121" target="_blank"> <strong>DCC121</strong> - LABORATÓRIO DE PROGRAMAÇÃO WEB </a>; <br> <a href="https://www.ufjf.br/deptocomputacao/sou-aluno/disciplinas/disciplinasdep/plano-de-ensino/?CodDisciplina=DCC152" target="_blank"> <strong>DCC152</strong> - FUNDAMENTOS DE DESENVOLVIMENTO WEB </a>; <br> Alem disso, tenho alguns materiais para voce ir estudando por conta propria, voce prefere eles na forma de texto ou video? <br> Digite <strong>textos desenvolvimento</strong> ou <strong>videos desenvolvimento</strong>, por favor.
