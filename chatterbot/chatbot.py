@@ -29,11 +29,11 @@ chatbot = ChatBot(
 chatbot.storage.drop()
 
  # Treinando com o arquivo txt
-training_data_quesans2 = open('meio_conversa.txt').read().splitlines()
-training_data_quesans3 = open('cumprimentos.txt').read().splitlines()
-training_data_quesans5 = open('professores.txt').read().splitlines()
-training_data_quesans6 = open('texto.txt').read().splitlines()
-training_data_quesans7 = open('video.txt').read().splitlines()
+training_data_quesans1 = open('meio_conversa.txt').read().splitlines()
+training_data_quesans2 = open('cumprimentos.txt').read().splitlines()
+training_data_quesans3 = open('professores.txt').read().splitlines()
+training_data_quesans4 = open('texto.txt').read().splitlines()
+training_data_quesans5 = open('video.txt').read().splitlines()
 
 
 
@@ -42,20 +42,20 @@ training_data_quesans7 = open('video.txt').read().splitlines()
 
 
 
-training_data2 = training_data_quesans2
-training_data3 = training_data_quesans3
-training_data5 = training_data_quesans5
-training_data6 = training_data_quesans6
-training_data7 = training_data_quesans7
+training_data1 = training_data_quesans2
+training_data2 = training_data_quesans3
+training_data3 = training_data_quesans5
+training_data4 = training_data_quesans6
+training_data5 = training_data_quesans7
 
 
 
 trainer = ListTrainer(chatbot)
-trainer.train(training_data2)  
-trainer.train(training_data3)
+trainer.train(training_data1)  
+trainer.train(training_data2)
+trainer.train(training_data3)  
+trainer.train(training_data4)  
 trainer.train(training_data5)  
-trainer.train(training_data6)  
-trainer.train(training_data7)  
 
 #while True:
  #   request = input('You: ')

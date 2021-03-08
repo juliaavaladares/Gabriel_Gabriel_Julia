@@ -1,6 +1,4 @@
-﻿oi
-Oi, eu sou o Turing, seu chatbot assistente da UFJF. Estou aqui para tentar ajudar voce a encontrar uma area de maior afinidade dentro da coputacao. Voce tem uma area especifica na qual possui interesse em conhecer mais? Se sim, qual?
-
+﻿
 oi
 Oi, eu sou o Turing, seu chatbot assistente da UFJF. Estou aqui para tentar ajudar voce a encontrar uma area de maior afinidade dentro da coputacao. Voce tem uma area especifica na qual possui interesse em conhecer mais? Se sim, qual?
 

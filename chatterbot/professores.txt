@@ -1,8 +1,8 @@
-professores desenvolvimento
-Para conhecer mais sobre o assunto, nada melhor do que conversar com um professor da area. Ja que quer saber mais sobre desenvolvimento, recomendo que converse com {Professor Exemplo}. Obrigado por usar Turing chatbot, e bons estudos!
-
-professores ciencia de dados
-Para conhecer mais sobre o assunto, nada melhor do que conversar com um professor da area. Ja que quer saber mais sobre ciencia de dados, recomendo que converse com {Professor Exemplo}. Obrigado por usar Turing chatbot, e bons estudos!
-
 professores computacao grafica
-Para conhecer mais sobre o assunto, nada melhor do que conversar com um professor da area. Ja que quer saber mais sobre computacao grafica, recomendo que converse com Igor de Oliveira Knop, a sala dele fica no último andar do DCC. Obrigado por usar Turing chatbot, e bons estudos!
+Para conhecer mais sobre o assunto, nada melhor do que conversar com um professor da area. Ja que quer saber mais sobre computacao grafica, recomendo que converse com <em>Rodrigo Luis de Souza da Silva</em>. A sala dele fica no ultimo andar do DCC. Obrigado por usar Turing chatbot, e bons estudos!
+
+professor desenvolvimento
+Para conhecer mais sobre o assunto, nada melhor do que conversar com um professor da area. Ja que quer saber mais sobre desenvolvimento, recomendo que converse com <em>Fabricio Mendonca</em>. A sala dele fica no ultimo andar do DCC. Obrigado por usar Turing chatbot, e bons estudos!
+
+professor ciencia de dados
+Para conhecer mais sobre o assunto, nada melhor do que conversar com um professor da area. Ja que quer saber mais sobre ciencia de dados, recomendo que converse com Heder Soares Bernardino. A sala dele fica no ultimo andar do DCC. Obrigado por usar Turing chatbot, e bons estudos!
