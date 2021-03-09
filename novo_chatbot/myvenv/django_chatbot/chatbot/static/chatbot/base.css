@@ -1,0 +1,45 @@
+/* Global =============================================== */
+:root {
+    --ufjf-red: #9C231B;
+    --ufjf-gray: #A9A9A9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f0f5f0;;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+.container {
+    width: min(90vw, 500px);
+    margin: auto;
+}
+
+/* Header ================================================ */
+header {
+    background: var(--ufjf-red);
+    padding: 2rem 0 10rem;
+    text-align: center;
+}
+
+.site-header .logo {
+    margin-top: 2rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+
+/* Footer ================================================ */
+footer {
+    text-align: center;
+    padding: 4rem 0 2rem;
+    color: black;
+
+    opacity: 0.6;
+}
