@@ -1,0 +1,58 @@
+{%load static%}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="{% static 'chatbot/base.css'%}">
+    {% if title %}
+        <title>Chatbot - {{title}}</title>
+    {% else %}
+        <title> Chatbot </title>
+    {% endif %}
+
+</head>
+<body>
+
+    <header class="site-header">
+        {%if logo%}
+            <h1 class="logo"> {{logo}}</h1>
+        {% else %}
+            <h1 class="logo"> UFJF </h1>
+        {% endif %}
+
+        {%if user.is_authenticated%}
+            <a href="{% url 'profile'%}" id="profile">Perfil</a>
+            <a href="{% url 'logout'%}" id="logout">Sair</a>
+
+        {%else%}
+            <a href="{% url 'login'%}" id="login">Entrar</a>
+            <a href="{% url 'register'%}" id="register">Cadastrar</a>
+
+        {% endif%}
+
+
+    </header>
+    {% if messages%}
+        {%for message in messages%}
+            <div class="alert alert-{{ message.tags}}">
+                {{ message }}
+            </div>
+        {%endfor%}
+    {%endif%}
+    {% block content %}
+    {% endblock %}
+    
+    
+
+    <footer>
+        <p>Universidade Federal de Juiz de Fora</p>
+    </footer>
+    
+</body>
+</html>
