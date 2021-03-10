@@ -2,24 +2,27 @@
 {%extends "chatbot/base.html"%}
 {%load crispy_forms_tags%}
 
+{% load static %}
+{%block styles%}
+    <link rel="stylesheet" href="{% static 'chatbot/base.css'%}">
+    <link rel="stylesheet" href="{% static 'students/login.css'%}">
+{%endblock%}
+
 {% block content%}
-    <div class="contente-section">
+    <div class="container">
         <form action="" method="POST">
             {% csrf_token %}
-            <fieldset class="form-group">
-                <legend class="border-bottom mb-4"> Entrar </legend>
-                {{ form | crispy}}
-            </fieldset>
+            {{ form | crispy}}
 
             <div class="form-group">
-                <button class="btn btn-outline-info" type="submit"> Entrar </button>
+                <button class="login-button" type="submit"> Entrar </button>
 
             </div>
         </form>
 
         <div class="border-top pt-3">
-            <small class="text-muted">
-                Não é cadastrado? <a class="ml-2" href="{%url 'register'%}"> Cadastre-se! </a>
+            <small class="text-small">
+                Não é cadastrado? <a class="link" href="{%url 'register'%}"> Cadastre-se! </a>
             </small>
         </div>
     </div>

@@ -1,15 +1,23 @@
 
 {%extends "chatbot/base.html"%}
 
+{% load static %}
+{% block styles %}
+    <link rel="stylesheet" href="{% static 'chatbot/base.css'%}">
+    <link rel="stylesheet" href="{% static 'students/logout.css'%}">
+{% endblock %}
 
 {% block content%}
-    <h2>Você foi desconectado!</h2>
 
-     <div class="border-top pt-3">
-         <small class="text-muted">
-            <a href="{%url 'login'%}">Entrar novamente</a>
-         </small>
-     </div>
+    <div class="container">
+        <h2>Você foi desconectado!</h2>
+         <div class="border-top pt-3">
+             <small class="text-muted">
+                <a href="{%url 'login'%}">Entrar novamente</a>
+             </small>
+         </div>
+    </div>
+
  
     
 {% endblock content%}
